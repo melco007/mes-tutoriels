@@ -1,4 +1,7 @@
 # Bébite Micro:Bit
+
+## @showdialog
+Ce tutoriel a été adapté et traduit en français par: David Cormier
 ## Étape 1 - La bébite dort
 Cette bébite Micro:bit est très endormie. En fait, elle dort presque toujours.
 
@@ -95,3 +98,6 @@ Cliquez sur le bouton SHAKE pour secouer votre bébite.
 Touchez le logo doré en haut pour chatouiller votre bébite.
 
 Si vous possédez un nouveau micro:bit (celui avec le logo doré brillant en haut), téléchargez ce code et essayez-le !
+
+## Félicitaions
+Félicitaions, votre bébite Micro:Bit à des émotions!
