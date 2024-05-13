@@ -2,7 +2,9 @@
 ## Étape 1 - La bébite dort
 Cette bébite Micro:bit est très endormie. En fait, elle dort presque toujours.
 
-► Dans la catégorie ``||basic:Basic||``, recherchez ``||basic:montrer l'icône [ ]||`` et insérez-le dans votre conteneur ``||basic:au démarrage||``. Réglez-le pour qu'il affiche le visage -_- endormi.
+► Saisissez le bloc ``||basic:toujours||``, et glissez-le dans la boîte à outil (l'espace boîte à outils devient rouge et l'îcone poubelle apparaît) car vous n'aurez pas besoin de ce bloc.
+
+► Dans la catégorie ``||basic:Base||``, recherchez ``||basic:montrer l'icône [ ]||`` et insérez-le dans votre conteneur ``||basic:au démarrage||``. Réglez-le pour qu'il affiche le visage -_- endormi.
 
 💡 Dans les options du menu déroulant Afficher l'icône, vous pouvez survoler pour voir comment s'appelle chaque design !
 
@@ -12,7 +14,7 @@ basic.showIcon(IconNames.Asleep)
 ## Étape 2 - La bébite est contente
 ► Depuis la catégorie ``||input:Entrée||``, recherchez le conteneur ``||input:sur le logo [pressé]||`` et faites-le glisser dans votre espace de travail.
 
-► Allez dans ``||basic:Basic||`` et récupérez le bloc ``||basic:montrer l'icône [ ]||``. Insérez-le dans votre conteneur vide ``||input:sur le logo [pressé]||``. Réglez l'icône du visage de votre bébite sur heureux :).
+► Allez dans ``||basic:Base|`` et récupérez le bloc ``||basic:montrer l'icône [ ]||``. Insérez-le dans votre conteneur vide ``||input:sur le logo [pressé]||``. Réglez l'icône du visage de votre bébite sur heureux :).
 ``` blocks
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.showIcon(IconNames.Happy)
@@ -33,7 +35,7 @@ Chaque fois que votre bébite est secoué, elle devient tristes 🙁
 
 ► Depuis ``||input:Entrée||``, recherchez ``||input:lorsque [secouer]||`` et faites-le glisser dans votre espace de travail.
 
-► Dans la catégorie ``||basic:Basic||``, saisissez ``||basic:montrer l'icône [ ]||`` et insérez-la dans votre nouveau conteneur ``||input:lorsque [secouer]||`` . Réglez l'icône (le visage de votre bébite) sur triste :(
+► Dans la catégorie ``||basic:Base||``, saisissez ``||basic:montrer l'icône [ ]||`` et insérez-la dans votre nouveau conteneur ``||input:lorsque [secouer]||`` . Réglez l'icône (le visage de votre bébite) sur triste :(
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Sad)
