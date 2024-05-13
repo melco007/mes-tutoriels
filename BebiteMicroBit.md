@@ -12,9 +12,9 @@ Cette bébite Micro:bit est très endormie. En fait, elle dort presque toujours.
 basic.showIcon(IconNames.Asleep)
 ```
 ## Étape 2 - La bébite est contente
-► Depuis la catégorie ``||input:Entrée||``, recherchez le conteneur ``||input:sur le logo [pressé]||`` et faites-le glisser dans votre espace de travail.
+► Depuis la catégorie ``||input:Entrée||``, recherchez le conteneur ``||input:sur le logo [appuyé]||`` et faites-le glisser dans votre espace de travail.
 
-► Allez dans ``||basic:Base|`` et récupérez le bloc ``||basic:montrer l'icône [ ]||``. Insérez-le dans votre conteneur vide ``||input:sur le logo [pressé]||``. Réglez l'icône du visage de votre bébite sur heureux :).
+► Allez dans ``||basic:Base|`` et récupérez le bloc ``||basic:montrer l'icône [ ]||``. Insérez-le dans votre conteneur vide ``||input:sur le logo [appuyé]||``. Réglez l'icône du visage de votre bébite sur heureux :).
 ``` blocks
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.showIcon(IconNames.Happy)
@@ -22,7 +22,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 ```
 ## Étape 3 - Son de chatouillement
 
-► Dans la catégorie ``||son:Musique||``, obtenez ``||son:jouer le son [gloussement] jusqu'à la fin||`` et ajoutez-le au bas de votre conteneur ``||input:sur le logo [pressé]||``.
+► Dans la catégorie ``||son:Musique||``, obtenez ``||son:jouer le son [gloussement] jusqu'à la fin||`` et ajoutez-le au bas de votre conteneur ``||input:sur le logo [appuyé]||``.
 ``` blocks
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.showIcon(IconNames.Happy)
@@ -73,7 +73,7 @@ basic.showIcon(IconNames.Asleep)
 ```
 ## Étape 7 - Le visage par défaut de votre bébite. partie 2
 
-► Dupliquez à nouveau le bloc ``||basic:Afficher l'icône [-_-]||`` et cette fois-ci, insérez-le tout en bas de votre conteneur ``||input:sur le logo [pressé]||``.
+► Dupliquez à nouveau le bloc ``||basic:Afficher l'icône [-_-]||`` et cette fois-ci, insérez-le tout en bas de votre conteneur ``||input:sur le logo [appuyé]||``.
 ``` blocks
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Sad)
