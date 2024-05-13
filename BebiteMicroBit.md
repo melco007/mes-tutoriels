@@ -56,7 +56,7 @@ input.onGesture(Gesture.Shake, function () {
 
 Assurons-nous que votre bébite se rendormira toujours après avoir été secoué ou chatouillé.
 
-► Cliquez avec le bouton droit sur le bloc ``||basic:Afficher l'icône [-_-]||`` dans votre espace de travail (à l'intérieur du conteneur ``||basic:au démarrage||``) et choisissez Dupliquer.
+► Cliquez avec le bouton droit sur le bloc ``||basic:montrer l'icône [-_-]||`` dans votre espace de travail (à l'intérieur du conteneur ``||basic:au démarrage||``) et choisissez Dupliquer.
 
 ► Insérez votre bloc copié tout en bas de votre conteneur ``||input:lorsque [secouer]||``.
 ``` blocks
